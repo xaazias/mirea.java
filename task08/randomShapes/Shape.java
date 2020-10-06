@@ -16,7 +16,7 @@ public abstract class Shape extends JFrame {
         this.color = color;
     }
 
-    abstract void drawShape(Graphics g);
+    public abstract void drawShape(Graphics g);
 
     public int getHeight() {
         return height;

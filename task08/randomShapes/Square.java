@@ -4,7 +4,7 @@ import java.awt.*;
 
 public class Square extends Shape {
 
-    Square(int x, int y, int side, String color) {
+    public Square(int x, int y, int side, String color) {
         super(x, y, side, side, color);
     }
 

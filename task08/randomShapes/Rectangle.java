@@ -4,7 +4,7 @@ import java.awt.*;
 
 public class Rectangle extends Shape {
 
-    Rectangle(int x, int y, int width, int height, String color) {
+    public Rectangle(int x, int y, int width, int height, String color) {
         super(x, y, width, height, color);
     }
 
